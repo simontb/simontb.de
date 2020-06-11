@@ -1,16 +1,12 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+So you want to learn more about me. I'll try to cover the most important stuff in a nutshell.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Grew up: Vreden, a small city in NRW close to the Dutch boarder.
 
-What else do you need?
+2013: Start of dual studies in applied computer science.
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+2016: Full-time job at SAP as software developer. Currently working for the sports and entertainment industry. 
