@@ -1,5 +1,8 @@
 # --- Basic options --- #
 
+url: "https://simontb.de"
+baseurl: ""
+
 # Name of website
 title: SimonTB
 
