@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Setting up a network-wide ad blocker for less than 30€
-subtitle: Running Pi-hole on a Raspberry Pi Zero powered by your router's USB port
+title: Running Pi-hole on a Raspberry Pi Zero powered by your router's USB port
+subtitle: Setting up a network-wide ad blocker for less than 30€
 tags: [raspberrypi, fritzbox]
 ---
 
@@ -11,7 +11,7 @@ After setting up my first Raspberry Pi for some home automation, I finally also 
 
 However, my requirements regarding home automation changed in the meantime and I need a dedicated Pi just for this purpose. So an additional one for the Pi-hole is needed. As this Pi should be close to my router, I thought why not use the router's USB port to power my Pi? I have a FritzBox 6490 and the USB port provides 500mA. This should be sufficient, because a Pi solely running Pi-hole doesn't need a lot of energy. It goes without saying that I don't need one of the newer Pis with more and more incredible specs. For this use-case a Pi Zero should be more than enough. It's a tiny Pi perfectly tailored for this project:
 
-![Raspberry Pi Zero v1.3](/assets/img/post-pihole/pizero.jpg)
+![Raspberry Pi Zero v1.3](/assets/img/post-pihole/pi-zero.jpg)
 
 As we can see in the picture, the Pi Zero doesn't come with a lot of ports. It has one Micro-USB port for power supply and another one to connect a device. Since the Pi Zero has no ethernet port, we'll need this USB port for an ethernet adapter. If you want to connect your Pi-hole via Wifi instead, I recommend to get the Pi Zero W that has WiFi onboard. However, I strongly advice to connect the Pi-hole via Ethernet, because it's more reliable. This image shows everything I used to set-up the Pi-hole:
 
@@ -28,6 +28,8 @@ As we can see in the picture, the Pi Zero doesn't come with a lot of ports. It h
 | CAT 5e cable 0.25cm | 0.34€ |
 |===
 | | **29.60€** |
+
+<br/>
 
 ## Step by step instructions
 1. Download Raspberry Pi OS (32-bit) Lite from the [offical site](https://www.raspberrypi.org/downloads/raspberry-pi-os/).
@@ -67,5 +69,5 @@ Password: raspberry
 1. Stay on that page, look for the entry "IP Addresses" and click on "IPv4 Addresses".
 1. Enter the Pi's IP address as "Local DNS server".
 1. Because some devices don't honor this entry, we also set the Pi-hole as the FritzBox's DNS server. Go to "Internet - Account information" and select the "DNS Server" tab. Select "Use other DNSv4 servers" and enter the Pi's IP as preferred DNSv4 server. Click "Apply".
-1. Open [pi.hole](http://pi.hole/admin/). After logging in go to "Settings" and select the "DNS" tab. At the bottom enable conditional forwarding. Enter your FritzBox's IP (should be 192.168.178.1) and "box" as local domain name. Then click save.
+1. Open [pi.hole/admin](http://pi.hole/admin/). After logging in go to "Settings" and select the "DNS" tab. At the bottom enable conditional forwarding. Enter your FritzBox's IP (should be 192.168.178.1) and "box" as local domain name. Then click save.
 1. Congratulations! You successfully set-up your Pi-hole.
