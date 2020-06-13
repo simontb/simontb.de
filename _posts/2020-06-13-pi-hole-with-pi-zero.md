@@ -9,6 +9,8 @@ I've been using ad-blockers in my browser for a long time. Not only for ad-block
 
 After setting up my first Raspberry Pi for some home automation, I finally also installed a Pi-hole on this Pi. The results were totally surprising to me. While I expected ads to be gone, looking at the dashboard showed me how throughougly my devices were tracking my activities. I was especially shocked about how much my smart TV is tracking everything I watch. I wasn't aware of this and most certainly do not agree with this. So the Pi-hole was set-up to stay.
 
+![Pi Zero with accessiores](/assets/img/post-pihole/pi-hole-dashboard.jpg)
+
 However, my requirements regarding home automation changed in the meantime and I need a dedicated Pi just for this purpose. So an additional one for the Pi-hole is needed. As this Pi should be close to my router, I thought why not use the router's USB port to power my Pi? I have a FritzBox 6490 and the USB port provides 500mA. This should be sufficient, because a Pi solely running Pi-hole doesn't need a lot of energy. It goes without saying that I don't need one of the newer Pis with more and more incredible specs. For this use-case a Pi Zero should be more than enough. It's a tiny Pi perfectly tailored for this project:
 
 ![Raspberry Pi Zero v1.3](/assets/img/post-pihole/pi-zero.jpg)
