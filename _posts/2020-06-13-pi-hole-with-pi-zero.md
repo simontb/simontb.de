@@ -15,7 +15,7 @@ However, my requirements regarding home automation changed in the meantime and I
 
 ![Raspberry Pi Zero v1.3](/assets/img/post-pihole/pi-zero.jpg)
 
-As we can see in the picture, the Pi Zero doesn't come with a lot of ports. It has one Micro-USB port for power supply and another one to connect a device. Since the Pi Zero has no ethernet port, we'll need this USB port for an ethernet adapter. If you want to connect your Pi-hole via Wifi instead, I recommend to get the Pi Zero W that has WiFi onboard. However, I strongly advice to connect the Pi-hole via Ethernet, because it's more reliable. This image shows everything I used to set-up the Pi-hole:
+As we can see in the picture, the Pi Zero doesn't come with a lot of ports. It has one Micro-USB port for power supply and another one to connect a device. Since the Pi Zero has no ethernet port, we'll need this USB port for an ethernet adapter. If you want to connect your Pi-hole via Wifi instead, I recommend to get the Pi Zero W which has WiFi onboard. However, I strongly advice to connect the Pi-hole via Ethernet, because it's more reliable. This image shows everything I used to set-up the Pi-hole:
 
 ![Pi Zero with accessiores](/assets/img/post-pihole/equipment.jpg)
 
