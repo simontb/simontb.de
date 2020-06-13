@@ -19,7 +19,7 @@ Grew up: Vreden, a small city in NRW close to the Dutch border.
 
 2018: Gave a lecture on Android app programming at Baden-Wuerttemberg Cooperative State University (DHBW) Mannheim.
 
-2020: Became a [Gettoworkout](https://gettoworkout.com) instructor at University of Mannheim - Institute of Sports.
+2020: Became a [Gettoworkout](https://gettoworkout.com/) instructor at University of Mannheim - Institute of Sports.
 
 ---
 
