@@ -51,7 +51,7 @@ As we can see in the picture, the Pi Zero doesn't come with a lot of ports. It h
 ![](/assets/img/post-pihole/assign-static-ip.jpg)
 1. If you want you can also assign another IP address, but first make sure that it's not used by another device.
 1. Disconnect the Pi from power supply and put the microSD card into your computer again.
-1. Enable SSH access to your Pi by creating an empty file called "ssd" (without file extension!) on the SD card.  
+1. Enable SSH access to your Pi by creating an empty file called "ssh" (without file extension!) on the SD card.  
 ![](/assets/img/post-pihole/enable-ssh.jpg)  
 This can also be done before you connect the Pi the first time, but then restart the Pi after you changed the IP address. You can restart the Pi by simply unplugging power.
 1. Download and install [Putty](https://www.putty.org/). Afterwards start it.
